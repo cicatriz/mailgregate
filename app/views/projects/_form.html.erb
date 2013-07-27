@@ -1,0 +1,13 @@
+<%= simple_form_for @project do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.label :name %>
+    <%= f.input_field :name %>
+    <%= f.association :users, :label_method => :to_s %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
