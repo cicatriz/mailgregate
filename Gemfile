@@ -8,7 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'cancan'
-gem 'compass-rails'
+gem 'compass-rails', "~> 2.0.alpha.0"
 gem 'devise'
 gem 'figaro'
 gem 'pg'
